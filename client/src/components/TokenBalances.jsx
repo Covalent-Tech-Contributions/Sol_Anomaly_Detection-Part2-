@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, TrendingDown } from 'lucide-react';
-
+//
 export default function TokenBalances({ balances }) {
   const sortedBalances = Object.entries(balances)
     .sort(([, a], [, b]) => Math.abs(b) - Math.abs(a))

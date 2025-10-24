@@ -6,6 +6,7 @@
 /**
  * Process incoming transaction data
  */
+//
 export const processTransactionData = (rawData) => {
   if (!rawData) return null;
 

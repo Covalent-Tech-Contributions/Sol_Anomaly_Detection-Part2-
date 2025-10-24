@@ -1,3 +1,4 @@
+//
 export const ANOMALY_RULES = {
   LARGE_TRANSACTION: {
     threshold: 1000,

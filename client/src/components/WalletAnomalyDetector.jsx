@@ -4,7 +4,7 @@ import AnomalyAlert from './AnomalyAlert';
 import TransactionTable from './TransactionTable';
 import TokenBalances from './TokenBalances';
 import { Wifi, WifiOff } from 'lucide-react';
-
+//
 export default function WalletAnomalyDetector() {
   const walletAddress = process.env.REACT_APP_SOLANA_WALLET_ADDRESS || 'YOUR_WALLET';
   const { isConnected, transactions, balances, error } = useGoldrushStreaming(walletAddress);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { AlertCircle, TrendingDown, AlertTriangle, Info } from 'lucide-react';
-
+//
 export default function AnomalyAlert({ anomalies }) {
   const getSeverityColor = (severity) => {
     switch (severity) {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { TrendingUp, TrendingDown, Activity, DollarSign, BarChart3, AlertTriangle } from 'lucide-react';
 import { formatPrice, formatVolume } from '../services/dataProcessing';
-
+//
 export default function OHLCVMonitor({ candles, anomalies, stats }) {
   const [currentCandle, setCurrentCandle] = useState(null);
   const [streamStatus, setStreamStatus] = useState({

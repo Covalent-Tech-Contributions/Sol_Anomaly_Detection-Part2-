@@ -7,7 +7,7 @@ import {
 import { StreamingChain, StreamingInterval, StreamingTimeframe } from '@covalenthq/client-sdk';
 import { processOHLCVCandle, calculateOHLCVStatistics } from '../services/dataProcessing';
 import { detectOHLCVAnomalies } from '../services/anomalyDetection';
-
+//
 export const useGoldrushStreaming = (walletAddress) => {
   const [isConnected, setIsConnected] = useState(false);
   const [transactions, setTransactions] = useState([]);
